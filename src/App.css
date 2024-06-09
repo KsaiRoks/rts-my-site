@@ -1,0 +1,133 @@
+/* ОСНОВНОЕ */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(26, 32, 38);
+  color: rgb(255, 255, 255);
+}
+
+.hide {
+  display: none;
+}
+
+.header {
+  display: flex;
+  margin-top: 1%;
+}
+
+.headerButton {
+  background: rgb(75, 171, 245);
+  color: rgb(255, 255, 255);
+  border: none;
+  margin: auto;
+  width: 15%;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/* ЭССЕ */
+
+.borderEssey {
+  background: rgb(33, 41, 50);
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  padding: 2%;
+}
+
+.titleEssey {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.historyEssey {
+  font-size: 20px;
+  color: rgb(185, 192, 201);
+}
+
+/* МИШЕНЬ */
+
+.containerTarger {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.inputTarget {
+  padding: 1%;
+  margin: auto;
+  width: 30%;
+  height: 100px;
+  font-size: 30px;
+  border-radius: 20px;
+  resize: none;
+  background-color: rgb(255, 255, 255);
+}
+
+.buttonTarger {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-top: 20px;
+  width: 30%;
+  height: 50px;
+  font-size: 40px;
+  border-radius: 20px;
+}
+
+/* КАЛЬКУЛЯТОР */
+
+.operations_buttons,
+.textareas {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.textareaCalc {
+  padding: 1%;
+  margin: auto;
+  width: 30%;
+  height: 200px;
+  font-size: 30px;
+  border-radius: 20px;
+  resize: none;
+  background-color: rgb(255, 255, 255);
+}
+
+.operandCalc {
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 10px;
+  width: 10%;
+  height: 100px;
+  font-size: 40px;
+  border-radius: 20px;
+}
+
+/* 2Д ГРАФИКА */
+
+.graph2D,
+.funcButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+/* 3Д ГРАФИКА */
+
+.graph3D {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.checkbox,
+.selectFigures {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
